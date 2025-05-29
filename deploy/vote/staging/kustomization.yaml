@@ -6,3 +6,7 @@ namespace: instavote
 patches:
 - path: deployment.yaml
 - path: service.yaml
+
+replicas:
+  - name: vote
+    count: 8
